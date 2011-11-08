@@ -5,5 +5,8 @@ require 'rubygems'
 require 'json'
 
 puts [3, "three"].to_json
-puts JSON.parse('[4, "four"]') 
+JSON.parse('[4, "four"]').each do |r|
+   puts 'heh'
+  
+end
 
